@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Toy Car 1",
+        "price": 20,
+        "rating": 5,
+        "quantity": 10,
+        "tag": ["all", "toy"],
+        "img": "https://i.ibb.co/PDds7S0/toy-car-1.jpg"
+    },
+    {
+        "title": "Toy Car 2",
+        "price": 25,
+        "rating": 4,
+        "quantity": 8,
+        "tag": ["all", "toy"],
+        "img": "https://i.ibb.co/Pzm7snT/toy-car-2.jpg"
+    },
+    {
+        "title": "Toy Car 3",
+        "price": 15,
+        "rating": 5,
+        "quantity": 15,
+        "tag": ["all", "toy"],
+        "img": "https://i.ibb.co/QMCnvCH/toy-car-3.jpg"
+    },
+    {
+        "title": "Toy Car 4",
+        "price": 20,
+        "rating": 5,
+        "quantity": 10,
+        "tag": ["all", "toy"],
+        "img": "https://i.ibb.co/9yrZ4dw/toy-car-4.jpg"
+    },
+    {
+        "title": "Toy Truck 5",
+        "price": 50,
+        "rating": 4,
+        "quantity": 10,
+        "tag": ["all", "truck"],
+        "img": "https://i.ibb.co/bdRW0VJ/truck-1.jpg"
+    },
+    {
+        "title": "Toy Truck 6",
+        "price": 60,
+        "rating": 5,
+        "quantity": 20,
+        "tag": ["all", "truck"],
+        "img": "https://i.ibb.co/ggTLxHC/truck-2.jpg"
+    },
+    {
+        "title": "Toy Truck 7",
+        "price": 50,
+        "rating": 5,
+        "quantity": 15,
+        "tag": ["all", "truck"],
+        "img": "https://i.ibb.co/0MMxw0x/truck-3.jpg"
+    },
+    {
+        "title": "Toy Truck 8",
+        "price": 40,
+        "rating": 5,
+        "quantity": 20,
+        "tag": ["all", "truck"],
+        "img": "https://i.ibb.co/Fmy6JtB/truck-4.jpg"
+    },
+    {
+        "title": "Toy Truck 9",
+        "price": 25,
+        "rating": 4,
+        "quantity": 5,
+        "tag": ["all", "sports"],
+        "img": "https://i.ibb.co/2tW4WS7/sports-car-1.jpg"
+    },
+    {
+        "title": "Toy Truck 10",
+        "price": 30,
+        "rating": 4,
+        "quantity": 8,
+        "tag": ["all", "sports"],
+        "img": "https://i.ibb.co/qBrWrbk/sports-car-2.jpg"
+    },
+    {
+        "title": "Toy Truck 11",
+        "price": 35,
+        "rating": 5,
+        "quantity": 10,
+        "tag": ["all", "sports"],
+        "img": "https://i.ibb.co/PzzgxNv/sports-car-3.jpg"
+    },
+    {
+        "title": "Toy Truck 12",
+        "price": 25,
+        "rating": 5,
+        "quantity": 10,
+        "tag": ["all", "sports"],
+        "img": "https://i.ibb.co/mBRPSRq/sports-car-4.jpg"
+    }
+]

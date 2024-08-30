@@ -9,6 +9,7 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
 import AuthProvider from './Providers/AuthProvider';
+import SingleToy from './components/SingleToy/SingleToy';
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
       {
         path:'signUp',
         element:<SignUp/>
+      },
+      {
+        path:'toy/:id',
+        element:<SingleToy/>,
+        loader: ({params})=>fetch(`http://localhost:5000/toys/${params.id}`)
       }
     ]
   },
