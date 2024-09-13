@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLoaderData } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 const Toys = ({toy}) => {
     const {_id, title, price, img, rating, quantity} = toy;

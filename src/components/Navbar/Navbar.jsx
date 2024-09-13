@@ -38,11 +38,11 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><Link to=''>Home</Link></li>
-        <li><Link to=''>All Toys</Link></li>
+        <li><Link to='/'>Home</Link></li>
+        <li><Link to='allToys'>All Toys</Link></li>
         <li><Link to=''>Blog</Link></li>
         {
-            user?.email? <><li><Link to=''>My Toys</Link></li>
+            user?.email? <><li><Link to='mytoy'>My Toys</Link></li>
         <li><Link to=''>Add A Toy</Link></li>
         <li><button onClick={handleLogout}>Logout</button></li></> : <li><Link to='/login'>Login</Link></li>
         }
@@ -52,11 +52,11 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-    <li><Link to=''>Home</Link></li>
-        <li><Link to=''>All Toys</Link></li>
+    <li><Link to='/'>Home</Link></li>
+        <li><Link to='allToys'>All Toys</Link></li>
         <li><Link to=''>Blog</Link></li>
         {
-            user?.email? <><li><Link to=''>My Toys</Link></li>
+            user?.email? <><li><Link to='mytoy'>My Toys</Link></li>
         <li><Link to=''>Add A Toy</Link></li>
         <li><button onClick={handleLogout}>Logout</button></li></> : <li><Link to='/login'>Login</Link></li>
         }
