@@ -43,7 +43,7 @@ const Navbar = () => {
         <li><Link to=''>Blog</Link></li>
         {
             user?.email? <><li><Link to='mytoy'>My Toys</Link></li>
-        <li><Link to=''>Add A Toy</Link></li>
+        <li><Link to='addatoy'>Add A Toy</Link></li>
         <li><button onClick={handleLogout}>Logout</button></li></> : <li><Link to='/login'>Login</Link></li>
         }
       </ul>
@@ -57,7 +57,7 @@ const Navbar = () => {
         <li><Link to=''>Blog</Link></li>
         {
             user?.email? <><li><Link to='mytoy'>My Toys</Link></li>
-        <li><Link to=''>Add A Toy</Link></li>
+        <li><Link to='addatoy'>Add A Toy</Link></li>
         <li><button onClick={handleLogout}>Logout</button></li></> : <li><Link to='/login'>Login</Link></li>
         }
     </ul>

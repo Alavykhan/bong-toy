@@ -14,9 +14,13 @@ const MyToy = () => {
                     </label>
                     </th>
                     <th>Name</th>
-                    <th>Job</th>
-                    <th>Favorite Color</th>
-                    <th></th>
+                    <th>Seller Name</th>
+                    <th>Seller Email</th>
+                    <th>Sub-Category</th>
+                    <th>Price</th>
+                    <th>Rating</th>
+                    <th>Available Quantity</th>
+                    <th>Detail Description</th>
                 </tr>
                 </thead>
                 <tbody>
